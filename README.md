@@ -2,9 +2,13 @@
 
 Tested on Orange Pi Zero 2W 2GB RAM.
 
-<img src="pics/logo.png" alt="Orange Pi Logo" width="150">
+<p align="center">
+    <img src="pics/logo.png" alt="Orange Pi Logo" width="250">
+</p>
 
-<img src="pics/board.png" alt="Board Image" width="300">
+<p align="center">
+    <img src="pics/board.png" alt="Board Image" width="450">
+</p>
 
 # Initial Setup
 
@@ -86,7 +90,7 @@ sudo nano /etc/systemd/system/run-bots.service
 
 We wait for an additional 25 seconds before running the script to ensure that the network is up and running.
 
-Write and save this to the file:
+Write and save this to the file (edit the various paths and usernames as needed):
 
 ```bash
 [Unit]
