@@ -1,0 +1,17 @@
+[Unit]
+Description=Run Python bots at startup
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+ExecStartPre=/bin/sleep 25
+ExecStart=/usr/bin/python /home/orangepi/run_bots.py
+WorkingDirectory=/home/orangepi/
+User=username
+Group=username
+Restart=on-failure
+RestartSec=30
+StartLimitIntervalSec=0
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,10 @@
+# Force HDMI even if no monitor is connected
+hdmi_force_hotplug=1
+
+# Set HDMI mode (optional but recommended for headless setups)
+hdmi_group=1
+hdmi_mode=1
+
+# Reduce resolution for headless mode if desired (optional)
+# You can set a lower resolution to reduce the load:
+hdmi_mode=16  # 1024x768 resolution
