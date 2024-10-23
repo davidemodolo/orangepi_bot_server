@@ -2,9 +2,9 @@
 
 Tested on Orange Pi Zero 2W 2GB RAM.
 
-<img src="pics/logo.png" alt="Board Image" style="max-width: 25%; height: auto;">
+<img src="pics/logo.png" alt="Board Image" style="max-width: 10%; height: auto;">
 
-<img src="pics/board.png" alt="Board Image" style="max-width: 50%; height: auto;">
+<img src="pics/board.png" alt="Board Image" style="max-width: 33%; height: auto;">
 
 ## Initial Setup
 
