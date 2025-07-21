@@ -156,7 +156,7 @@ Just put your bots in the `/home/orangepi/bots` folder and they will be run at t
 
 Remember that the files must be named `bot.py`, and they can be in subfolders.
 
-Paths inside the code of any bot should be "total" and not "relative".
+Paths inside the code of any bot should be "absolute" and not "relative".
 # Run
 
 Just attach the board to the power and it will run the bots automatically.
